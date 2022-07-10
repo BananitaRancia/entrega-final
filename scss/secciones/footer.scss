@@ -1,20 +1,27 @@
 footer {
     max-width: 100%;
-    // height: 100px;
     background-color: $colorHeadFooter;
+    align-items: center;
+    margin-top: 15px;
+
 
     ul {
         display: flex;
         text-decoration: none;
         list-style: none;
         justify-content: center;
+        margin-bottom: 0;
+        padding: 0;
+
 
 
         li {
             text-transform: uppercase;
             color: rgb(255, 255, 255);
             font-size: 30px;
-            padding: 50px;
+            padding: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
 
             &:hover {
                 transform: scale(1.5);
@@ -23,7 +30,9 @@ footer {
             }
         }
 
-        a {}
+        a {
+            color: $colorSubTitulo;
+        }
     }
 
     div.container_sub {
@@ -71,5 +80,10 @@ footer {
             }
 
         }
+    }
+
+    div.copyright {
+        text-align: center;
+        color: #fff
     }
 }

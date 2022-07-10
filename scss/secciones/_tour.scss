@@ -18,6 +18,7 @@ main.main_850 {
                 width: 300px;
                 padding: 0.5rem 0.5rem;
                 text-align: left;
+                color: $colorSubTitulo;
 
 
             }
@@ -38,6 +39,12 @@ main.main_850 {
                 input {
                     width: auto;
                     height: 30px;
+
+                    &:hover {
+                        background: red;
+                        color: white;
+
+                    }
                 }
 
             }
